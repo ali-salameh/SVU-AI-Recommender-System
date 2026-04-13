@@ -1,0 +1,17 @@
+{
+  "name": "ola",
+  "version": "1.0.0",
+  "description": "BIA601 smart recommendation project using Genetic Algorithm",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "node -e \"console.log('No automated tests yet')\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^5.2.1",
+    "xlsx": "^0.18.5"
+  }
+}

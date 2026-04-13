@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>مشروع BIA601 - تحسين التوصيات بالخوارزمية الجينية</title>
+    <link rel="stylesheet" href="/styles.css" />
+  </head>
+  <body>
+    <header class="hero">
+      <div class="hero-inner">
+        <p class="badge">BIA601 - Spring 2025</p>
+        <h1>تحسين توصيات المتجر الإلكتروني باستخدام الخوارزمية الجينية</h1>
+        <p>
+          نموذج عملي يطبّق فكرة مقال علمي حديث (2024) ويستخدم بيانات المستخدمين والمنتجات والسلوك
+          لتحسين جودة التوصيات.
+        </p>
+      </div>
+    </header>
+
+    <main class="container">
+      <section class="card control-panel">
+        <h2>تشغيل النظام</h2>
+        <div class="controls">
+          <label for="userSelect">اختر المستخدم</label>
+          <select id="userSelect"></select>
+          <label for="limitInput">عدد التوصيات</label>
+          <input id="limitInput" type="number" min="5" max="20" value="10" />
+          <button id="runBtn">توليد توصيات محسّنة</button>
+        </div>
+      </section>
+
+      <section class="grid">
+        <article class="card">
+          <h3>ما معنى تحسين التوصيات؟</h3>
+          <p id="q1"></p>
+        </article>
+        <article class="card">
+          <h3>كيف تساعد الخوارزميات الجينية؟</h3>
+          <p id="q2"></p>
+        </article>
+      </section>
+
+      <section class="card metrics">
+        <h2>نتائج التحسين</h2>
+        <div class="metric-row">
+          <div class="metric">
+            <span>Baseline Fitness</span>
+            <strong id="baselineFitness">-</strong>
+          </div>
+          <div class="metric">
+            <span>GA Fitness</span>
+            <strong id="gaFitness">-</strong>
+          </div>
+          <div class="metric">
+            <span>Estimated Lift</span>
+            <strong id="lift">-</strong>
+          </div>
+        </div>
+      </section>
+
+      <section class="card">
+        <h2>التوصيات المحسّنة</h2>
+        <div class="table-wrap">
+          <table>
+            <thead>
+              <tr>
+                <th>الترتيب</th>
+                <th>المنتج</th>
+                <th>الفئة</th>
+                <th>السعر</th>
+                <th>النتيجة</th>
+                <th>توافق الفئة</th>
+                <th>جودة المنتج</th>
+                <th>توافق السعر</th>
+              </tr>
+            </thead>
+            <tbody id="resultsBody"></tbody>
+          </table>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <p>مرجع المقال العلمي: Heliyon (2024) - DOI: 10.1016/j.heliyon.2024.e29045</p>
+    </footer>
+
+    <script src="/app.js"></script>
+  </body>
+</html>
+
