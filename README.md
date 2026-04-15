@@ -31,12 +31,12 @@ npm start
 - كل الملفات جاهزة للرفع على Git.
 
 ## الفريق
-ali_155943
-faheem_176705
-ahmad_187832
-Sedrah_154399
-rasha_112221
-bakr_222850
+ali_155943/
+faheem_176705/
+ahmad_187832/
+Sedrah_154399/
+rasha_112221/
+bakr_222850/
 ola_129382
 
 
